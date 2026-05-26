@@ -13,6 +13,7 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "tsx src/index.ts",
+    "dev:http": "tsx src/index-http.ts",
     "prepare": "is-ci || husky",
     "prepublishOnly": "npm run build",
     "lint": "eslint .",
@@ -87,6 +88,8 @@
   ],
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
     "@typescript-eslint/eslint-plugin": "^8.59.4",
     "@typescript-eslint/parser": "^8.59.4",
     "@vitest/coverage-v8": "^4.1.7",
@@ -113,6 +116,8 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "chrome-launcher": "^1.2.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "lighthouse": "^13.0.3",
     "zod": "^4.4.3"
   }
