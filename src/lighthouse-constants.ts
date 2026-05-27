@@ -41,6 +41,10 @@ export const LCP_OPPORTUNITIES = [
   "efficient-animated-content",
   "preload-lcp-image",
   "uses-text-compression",
+  "server-response-time",
+  "offscreen-images",
+  "unsized-images",
+  "redirects",
 ] as const;
 
 // Security audit IDs

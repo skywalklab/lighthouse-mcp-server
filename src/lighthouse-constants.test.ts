@@ -98,6 +98,10 @@ describe("lighthouse-constants", () => {
         "efficient-animated-content",
         "preload-lcp-image",
         "uses-text-compression",
+        "server-response-time",
+        "offscreen-images",
+        "unsized-images",
+        "redirects",
       ];
 
       expectedOpportunities.forEach((opportunity) => {
